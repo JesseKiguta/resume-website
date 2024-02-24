@@ -4,57 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Jesse's Resume Website</title>
 </head>
 <body>
+    <!--Header section containing navbar and logo-->
     <header>
         <div class="logo">
-            <p>Jesse Kiguta</p>
+            <h1>Jesse Kiguta</h1>
         </div>
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#intro">Introduction</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <!--Simple Home section-->
         <section id="home">
-            <div>
+            <div class="home">
                 <h1>This is <b>Jesse</b>.</h1>
                 <h2>An aspiring Software Developer, curious mind and all-around awesome person.</h2>
             </div>
         </section>
+        <!--Personal introduction-->
         <section id="intro">
-            <div>
-                <h3>A bit more about myself</h3>
+            <div class="intro">
+                <h3>A bit more about myself:</h3>
                 <p>Hello again. I am currently a Software Engineering student at ALU, based in Kigali.
                     In this program, I found my niche in the Python programming language and its various applications.
                     As an amateur Python developer, I believe my expertise would prove useful to take your company to the next level.
                     As an individual, I am ardently driven by curiosity to keep learning and improving because
-                    "it's not the destination, it's the journey."
+                    "it's not the destination, it's the journey." Here are some places you can find me online:
                 </p>
+                <a href="https://github.com/JesseKiguta"><img src="images/icongithub.png"></a>
+                <a href="https://www.linkedin.com/in/jesse-kiguta/"><img src="images/iconlinkedin.png"></a>
             </div>
         </section>
+        <!--Skills section-->
         <section id="skills">
             <div>
-                
+                <div class="skills1">
+                    <p>Some of the programming skills I have gained are:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                        <li>Javascript</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skills2">
+                    <p>My other non-programming skills are as follows:</p>
+                    <ul>
+                        <li>Problem solving</li>
+                        <li>Interpersonal skills</li>
+                        <li>Adaptability</li>
+                        <li>Critical thinking</li>
+                    </ul>
+                </div>
             </div>
         </section>
+        <!--Education section-->
         <section id="education">
-            <div>
-
+            <div class="education">
+                <h1>Education:</h1>
+                <h2>African Leadership University</h2>
+                <h3>Kigali, Rwanda</h2>
+                <h3>2023-2026</h3>
             </div>
         </section>
+        <!--Education section-->
         <section id="experience">
-            <div>
-
+            <div class="experience">
+                <h3>Here are some things that I have worked on:</h3>
+                <div><a href="https://github.com/JesseKiguta/alu-higher_level_programming">Various Python and Python-related projects</a></div>
+                <div><a href="https://github.com/JesseKiguta/personal-projects">My personal coding projects</a></div>
+                <div><a href="https://github.com/JesseKiguta/alu-web-api-group-10">Currency exchange website and joke generator</a></div>
+                <div><a href="https://github.com/JesseKiguta/alu-back-end">Back-end development</a></div>
+                <div><a href="https://github.com/JesseKiguta/alu-web_front_end">Front-end web development</a></div>
+                <div><a href="https://github.com/JesseKiguta/alu_html-css-contest-group14/">Alumni Event Hub prototype</a><div>
             </div>
         </section>
     </main>
+    <!--Footer with Copyright-->
     <footer>
-
+        <p>&copy; 2024, Jesse Kiguta</p>
     </footer>
 </body>
 </html>
